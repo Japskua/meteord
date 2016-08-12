@@ -1,4 +1,4 @@
-FROM abernix/meteord:base
+FROM japskua/meteord:base
 MAINTAINER Jesse Rosenberger
 
 COPY scripts/install_binbuild_tools.sh $METEORD_DIR/install_binbuild_tools.sh
